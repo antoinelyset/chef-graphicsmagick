@@ -14,7 +14,7 @@ Attributes
 ==========
 
 * `node['graphicsmagick']['version']` - Version Number (1.3.18)
-* `node['graphicsmagick']['url']`     - Url (http://78.108.103.11/MIRROR/ftp/GraphicsMagick )
+* `node['graphicsmagick']['url']`     - Url (http://78.108.103.11/MIRROR/ftp/GraphicsMagick)
 
 It builds an url like :
 
