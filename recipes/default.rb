@@ -18,7 +18,7 @@ remote_file file_path  do
   not_if "test -f #{file_path}"
 end
 
-execute 'Compiling GraphicsMagick' do
+bash 'Compiling GraphicsMagick' do
   cwd Chef::Config[:file_cache_path]
 
   code <<-COMMMANDS
