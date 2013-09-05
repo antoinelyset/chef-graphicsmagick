@@ -28,6 +28,5 @@ bash 'Compiling GraphicsMagick' do
 	make && make install
   COMMMANDS
 
-  action :create_if_missing
   not_if "GraphicsMagick-config --version | grep #{node['graphicsmagick']['version']}"
 end
